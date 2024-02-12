@@ -1,7 +1,12 @@
 /* Flexbox Part 1 */
 
 #flex-section1 ul {
-
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	justify-content: space-evenly;
 }
 
 /* end Flexbox Part 1 */
