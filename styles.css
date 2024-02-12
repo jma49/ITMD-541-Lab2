@@ -15,23 +15,27 @@
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
-
+	padding: 0;
+	margin: 0;
+	display: flex;
 }
 
 #flex-section2 li {
-
+	list-style: none;
+	flex-grow: 1;
+	flex-basis: 0;
 }
 
 #flex-section2 .item1 {
-
+	order: 1;
 }
 
 #flex-section2 .item2 {
-
+	order: 3;
 }
 
 #flex-section2 .item3 {
-
+	order: 2;
 }
 
 /* end Flexbox Part 2 */
