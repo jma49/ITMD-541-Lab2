@@ -44,11 +44,20 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
-
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #flex-section3 .tags ul {
-
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
 }
 
 /* end Flexbox Part 3 */
